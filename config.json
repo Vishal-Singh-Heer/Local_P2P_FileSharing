@@ -1,14 +1,14 @@
 {
   "server": {
-    "host": "0.0.0.0",
-    "port": 65432,
-    "certificate_path": "C:/Users/imvsh/OneDrive/Desktop/Comp Network/Project/server.crt",
-    "key_path": "C:/Users/imvsh/OneDrive/Desktop/Comp Network/Project/server.key"
+    "host": "YOUR_SERVER_HOST",
+    "port": YOUR_SERVER_PORT,
+    "certificate_path": "path/to/your/certificate.pem",
+    "key_path": "path/to/your/key.pem"
   },
   "client": {
-    "server_host": "192.168.100.174",
-    "server_port": 65432,
-    "shared_files_dir": "shared_files",
-    "downloads_dir": "downloads"
+    "server_host": "YOUR_SERVER_HOST",
+    "server_port": YOUR_SERVER_PORT,
+    "shared_files_directory": "path/to/your/shared_files",
+    "downloads_directory": "path/to/your/downloads"
   }
 }
